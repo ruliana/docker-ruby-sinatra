@@ -1,9 +1,8 @@
-FROM ruby:2.3
+FROM ruby:2.2.5
 
-MAINTAINER Erika Pauwels <erika.pauwels@gmail.com>
+MAINTAINER Ronie Uliana <ronie.uliana@gmail.com>
 
-ENV RACK_ENV production
-ENV MAIN_APP_FILE web.rb
+ENV RACK_ENV development
 
 RUN mkdir -p /usr/src/app
 
